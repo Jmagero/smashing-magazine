@@ -1,60 +1,200 @@
-*{
+* {
   margin: 0;
-  list-style-type: none;
+  padding:0;
+  font-family: 'Spinnaker', Arial, sans-serif;
+  line-height: 2.5rem;
 }
-body{
+
+a{
+  text-decoration: none;
+  color: #555;
+}
+
+body {
   margin: 0 auto;
   width: 100%;
 }
 
-nav ul{
+nav ul {
   display: flex;
   width: 100%;
-  padding-top: 20px 0;
+  padding: 20px 0;
   background-color: grey;
   justify-content: space-around;
-  align-content: center;
 }
-.logo{
+
+.logo {
   width: 50px;
   height: 50px;
 }
-
-.grid-1{
+#center_text{
+  text-align: center;
+  margin: 10px 0;
+}
+#right_align_text{
+  text-align: right;
+}
+.grid-1 {
   display: grid;
-  border: solid 1px green;
   grid-template: 1fr 1fr / 1fr 1fr;
- 
 }
-.grid-2{
-  display: grid;
-  border: solid 1px green;
-  grid-template-columns: repeat(3,1fr);
+.item{
+  height: 400px;
+  padding: 40px;
+  text-align: center;
 }
-.grid-3{
-  display: grid;
-  border: solid 1px green;
-  grid-template-columns: repeat(2, 2fr 1fr);
+.item small {
+  color: #555;
+  font-style: oblique;
+
 }
-.grid-4{
+.item a{
+  font-size: x-large;
+  text-decoration: none;
+  color: black;
+}
+.item h2{
+  font-size: xx-large;
+}
+
+.article-1{
+  background-color:  rgb(68, 68, 70);
+}
+.article-1 img{
+ width: 50px;
+ height: 50px;
+}
+
+.article-2 img{
+  width: 50px;
+  height: 50px;
+ }
+
+.article-2{
+  background-color:  rgb(113, 113, 116);
+}
+.grid-2 {
   display: grid;
-  border: solid 1px green;
+  grid-template-columns: repeat(3, 1fr);
+  background-color:  rgb(181, 181, 182);
+  padding: 50px;
+}
+.post-title{
+  font-size: x-large;
+  color: #000;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.posts{
+  height: 500px;
+}
+.banner1{
+  width: 800px;
+  height: 500px;
+  text-align: center;
+  padding-top: 150px;
+  color: #fff;
+  background: #333;
+  border-radius: 15px;
+  margin-left: 35%;
+}
+.banner-title{
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.banner1 p{
+  padding: 50px 20px;
+}
+.exp-btn{
+  color: gray;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.account{
+  color: white;
+  font-size: x-small;
+}
+#sign-in{
+  color: white;
+  font-size: x-small;
+} */
+.grid-3 {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-.grid-5{
+.banner-2{
+  grid-template-columns: 1/3;
+  width: 800px;
+  height: 500px;
+  text-align: center;
+  padding-top: 150px;
+  color: #fff;
+  background: #333;
+  border-radius: 15px;
+  margin-left: 35%;
+}
+#lastest-articles{
+  display: flex;
+  justify-content: center;
+  color: #333;
+}
+.book{
+  text-align: center;
+  background-color: #333;
+  height: 700px;
+}
+#book-title{
+  font-size: 2.9rem;
+  font-weight: bolder;
+  color: #555;
+  text-decoration: underline;
+  text-shadow: 1px 2px #777;
+  line-height: 5rem;
+}
+#book-subtitle{
+  font-size: 2.7rem;
+  font-weight: bolder;
+  color: #000;
+}
+#book-paragraph{
+  font-size: 1rem;
+  padding-top: 20px;
+  color: #000;
+  padding-bottom: 4.5rem;
+}
+
+#book-btn{
+  color: #000;
+  font-weight: bold;
+  font-size: large;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+}
+#book-date{
+  padding: 2.5rem;
+  font-size: small;
+  color: #000;
+}
+.grid-4 {
   display: grid;
   border: solid 1px green;
   grid-template-columns: repeat(2, 1fr);
 }
+
+.grid-5 {
+  display: grid;
+  border: solid 1px green;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .grid-6{
   display: grid;
   border: solid 1px green;
-  grid-template-columns: repeat(3, 1fr);
-
-}
-.grid-7{
-  display: grid;
-  border: solid 1px green;
   grid-template-columns: repeat(2, 1fr);
-
 }

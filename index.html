@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Smashing-magazine</title>
-  <link rel="stylesheet" href="style.css">
+  <link href="style.css" rel="stylesheet" >
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
@@ -16,43 +16,40 @@
         </div>
         <li>
           <a href="#">
-            <img src="https://d33wubrfki0l68.cloudfront.net/2bc30327ebf529a249e825447d86f18546a1d6db/36b19/images/nav-icons/articles.svg" alt="" width="39" height="44">
             <h3>Articles</h3>
             <p>Design & development</p>
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="https://d33wubrfki0l68.cloudfront.net/9b4ab044835dfde9adcfb5433a36be21a66cee4c/5b489/images/nav-icons/books.svg" alt="" width="39" height="44">
             <h3>Books</h3>
             <p>Physical & digital books</p>
           </a>  
         </li>
         <li>
           <a href="#">
-            <img src="https://d33wubrfki0l68.cloudfront.net/5831a43ae2230e30a035539e7c2b831561d2d2fd/86bab/images/nav-icons/events.svg" alt="" width="39" height="44">
             <h3>Events</h3>
             <p>Conferences & workshops</p>
           </a>  
         </li>
         <li>
           <a href="#">
-            <img src="https://d33wubrfki0l68.cloudfront.net/0b5647613c9ac6cfb7358e2c12d2912daa78af4f/15c46/images/nav-icons/jobs.svg" alt="" width="39" height="44">
             <h3>Jobs</h3>
             <p>Find work & employees</p>
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="https://d33wubrfki0l68.cloudfront.net/75778fbc97d23f2fca1610f78b2d7226b137fbfc/acdc3/images/nav-icons/membership.svg" alt="" width="39" height="44">
             <h3>Memberships</h3>
             <p>Webinars & early-birds</p>
           </a>
         </li>
-        <div class="button">
-          <i class="fa fa-search" aria-hidden="true"></i>
-          <input type="button" name="button" id="btn">
-        </div>
+        <li>
+          <a href="#">
+            <h3>Topics</h3>
+          </a>
+        </li>
+       
       </ul>
     </nav>
   </header>
@@ -65,65 +62,58 @@
       <!-- lastest-articles -->
       <div class ="grid-1">
         <article>
-          <div class ="article-1">
-            <img src="images/kristofer-selbekk-profile.jpg" alt="Kristofer Giltvedt Selbekk profile">
+          <div class ="item article-1">
             <a href="#">Adrian Bece<small>wrote</small></a>
-            <p>Creating Sortable Tables With React</p>
-            <i class="fa fa-comment-o" aria-hidden="true"></i>
+            <h2>Creating Sortable Tables With React</h2>
+            <p>1 comment</p>
             <a href="#"># React <sup>29</sup></a>
             <a href="#"># Tools <sup>204</sup></a>
             <a href="#"># Techniques <sup>231</sup></a>
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
           </div>
         </article>
         <article>
-          <div class="article-2">
-            <img src="images/adrian-bece-200x200.jpg" alt="Kristofer Giltvedt Selbekk profile">
+          <div class="item article-2">
             <a href="#">Adrian Bece<small>wrote</small></a>
-            <p>Practical Overview of CSS Houdini</p>
-            <i class="fa fa-comment-o" aria-hidden="true">Leave a comment</i>
+            <h2>Practical Overview of CSS Houdini</h2>
+            <p>1 comment</p>
             <a href="#"># React <sup>29</sup></a>
             <a href="#"># Tools <sup>204</sup></a>
             <a href="#"># Techniques <sup>231</sup></a>
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
           </div>
         </article>
         <article>
-          <div class="article-3">
-            <img src="images/adrian-bece-200x200.jpg" alt="Kristofer Giltvedt Selbekk profile">
+          <div class="item article-2">
             <a href="#">Adrian Bece<small>wrote</small></a>
-            <p>Practical Overview of CSS Houdini</p>
-            <i class="fa fa-comment-o" aria-hidden="true">Leave a comment</i>
+            <h2>Practical Overview of CSS Houdini</h2>
+            <p>1 comment</p>
             <a href="#"># React <sup>29</sup></a>
             <a href="#"># Tools <sup>204</sup></a>
             <a href="#"># Techniques <sup>231</sup></a>
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
           </div>
         </article>
         <article>
-          <div class="article-4">
-            <img src="images/adrian-bece-200x200.jpg" alt="Kristofer Giltvedt Selbekk profile">
-            <a href="#">Adrian Bece<small>wrote</small></a>
-            <p>Practical Overview of CSS Houdini</p>
-            <i class="fa fa-comment-o" aria-hidden="true">Leave a comment</i>
+          <div class="item article-1">
+            <a href="#">Adrian Bece  <small>wrote</small></a>
+            <h2>Practical Overview of CSS Houdini</h2>
+            <p>1 comment</p>
             <a href="#"># React <sup>29</sup></a>
             <a href="#"># Tools <sup>204</sup></a>
             <a href="#"># Techniques <sup>231</sup></a>
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
           </div>
         </article>
       </div>
       <!-- latest posts -->
       <div class="grid-2">
       <article>
-        <div class="post-1">
-          <p>7 DAYS AGO</p>
-          <a href="#">
+        <div class="posts">
+          <small>7 DAYS AGO</small>
+          <br>
+          <a class="post-title" href="#">
             Implementing Infinite Scroll And Image Lazy Loading in React
           </a>
           <p>by <a href="#">Chidi Orji</a></p>
           <p>
-            this tutorial, we're going to learn how to
+            In this tutorial, we're going to learn how to
             <br>
             use the HTML Intersection Observer API to
             <br>
@@ -135,18 +125,18 @@
             <br>
             hooks and how to …
           </p>
-          <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </div>
       </article>
       <article>
-        <div class="post-2">
-          <p>7 DAYS AGO</p>
-          <a href="#">
+        <div class="posts">
+          <small>7 DAYS AGO</small>
+          <br>
+          <a class="post-title" href="#">
             Implementing Infinite Scroll And Image Lazy Loading in React
           </a>
           <p>by <a href="#">Chidi Orji</a></p>
           <p>
-            this tutorial, we're going to learn how to
+            In this tutorial, we're going to learn how to
             <br>
             use the HTML Intersection Observer API to
             <br>
@@ -158,18 +148,19 @@
             <br>
             hooks and how to …
           </p>
-          <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </div>
+        </article>
       </article>
       <article>
-        <div class="post-3">
-          <p>7 DAYS AGO</p>
-          <a href="#">
+        <div class="posts">
+          <small>7 DAYS AGO</small>
+          <br>
+          <a class="post-title" href="#">
             Implementing Infinite Scroll And Image Lazy Loading in React
           </a>
           <p>by <a href="#">Chidi Orji</a></p>
           <p>
-            this tutorial, we're going to learn how to
+            In this tutorial, we're going to learn how to
             <br>
             use the HTML Intersection Observer API to
             <br>
@@ -181,136 +172,149 @@
             <br>
             hooks and how to …
           </p>
-          <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </div>
       </article>
     </div>
     <!-- Smashing members plus article -->
-    <div class="grid-3">
-        <div>
-          <img src="https://d33wubrfki0l68.cloudfront.net/aea2faf51cc69a1e10bb434aa92f7c3821f16787/e4922/images/smashing-cat/singing-barista.svg"" alt="">
-          <a href="#">1,51 smashing members</a>
-          <p>A friendly community for people 
+    <div class="banner1">
+      <h2><a class="banner-title" href="#">1,51 smashing members</a></h2>
+      <p>A friendly community for people 
           who design and build the web. Books, webinars,
-           job board and conferences — for just 1 coffee a month!</p>
-          <a href="#">
+           job board and conferences for just 1 coffee a month!</p>
+          <a class ="exp-btn" href="#">
             Explore features
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
           </a>
-          <p>Already have an account?</p>
-          <a href="#">Sign in!</a>
-        </div>
-        <article>
-          <div>
-            <p>12 DAYS AGO</p>
-            <a href="#">
-              Creating Secure Password Flows With NodeJS And MySQL
-            </a>
-            <p>by <a href="#">Darshan Somasheka</a></p>
-            <p> 
-              Reset password functionality is table stakes for
-              any user-friendly application. 
-              It can also be a security nightmare. 
-              Using NodeJS and MySQL, Darshan demonstrates 
-              how to successfully create a secure reset password 
-              flow so you can avoid these pitfalls.
-              <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            </p>
+          <div class="account">
+            <small>Already have an account?</small>
+            <a id="sign-in" href="#">Sign in!</a>
           </div>
-        </article>
     </div>
     <!-- lastest post continuation -->
-    <div class=grid-4>
+    <div class="grid-2">
       <article>
-        <div>
-          <p>12 DAYS AGO</p>
-          <a href="#">
-            Creating Secure Password Flows With NodeJS And MySQL
+        <div class="posts">
+          <small>7 DAYS AGO</small>
+          <br>
+          <a class="post-title" href="#">
+            Implementing Infinite Scroll And Image Lazy Loading in React
           </a>
-          <p>by <a href="#">Darshan Somasheka</a></p>
-          <p> 
-            Reset password functionality is table stakes for
-            any user-friendly application. 
-            It can also be a security nightmare. 
-            Using NodeJS and MySQL, Darshan demonstrates 
-            how to successfully create a secure reset password 
-            flow so you can avoid these pitfalls.
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          <p>by <a href="#">Chidi Orji</a></p>
+          <p>
+            In this tutorial, we're going to learn how to
+            <br>
+            use the HTML Intersection Observer API to
+            <br>
+            implement infinite scrolling and image lazy
+            <br>
+            loading in a React functional component. In
+            <br>
+            the process, we’ll learn how to use some of
+            <br>
+            hooks and how to …
           </p>
         </div>
       </article>
       <article>
-        <div>
-          <p>12 DAYS AGO</p>
-          <a href="#">
-            Creating Secure Password Flows With NodeJS And MySQL
+        <div class="posts">
+          <small>7 DAYS AGO</small>
+          <br>
+          <a class="post-title" href="#">
+            Implementing Infinite Scroll And Image Lazy Loading in React
           </a>
-          <p>by <a href="#">Darshan Somasheka</a></p>
-          <p> 
-            Reset password functionality is table stakes for
-            any user-friendly application. 
-            It can also be a security nightmare. 
-            Using NodeJS and MySQL, Darshan demonstrates 
-            how to successfully create a secure reset password 
-            flow so you can avoid these pitfalls.
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          <p>by <a href="#">Chidi Orji</a></p>
+          <p>
+            In this tutorial, we're going to learn how to
+            <br>
+            use the HTML Intersection Observer API to
+            <br>
+            implement infinite scrolling and image lazy
+            <br>
+            loading in a React functional component. In
+            <br>
+            the process, we’ll learn how to use some of
+            <br>
+            hooks and how to …
           </p>
         </div>
+        </article>
       </article>
       <article>
-        <div>
-          <p>12 DAYS AGO</p>
-          <a href="#">
-            Creating Secure Password Flows With NodeJS And MySQL
+        <div class="posts">
+          <small>7 DAYS AGO</small>
+          <br>
+          <a class="post-title" href="#">
+            Implementing Infinite Scroll And Image Lazy Loading in React
           </a>
-          <p>by <a href="#">Darshan Somasheka</a></p>
-          <p> 
-            Reset password functionality is table stakes for
-            any user-friendly application. 
-            It can also be a security nightmare. 
-            Using NodeJS and MySQL, Darshan demonstrates 
-            how to successfully create a secure reset password 
-            flow so you can avoid these pitfalls.
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          <p>by <a href="#">Chidi Orji</a></p>
+          <p>
+            In this tutorial, we're going to learn how to
+            <br>
+            use the HTML Intersection Observer API to
+            <br>
+            implement infinite scrolling and image lazy
+            <br>
+            loading in a React functional component. In
+            <br>
+            the process, we’ll learn how to use some of
+            <br>
+            hooks and how to …
           </p>
         </div>
       </article>
     </div>
     <!-- smashing TV -->
-    <div>
-      <img class="img-article" src="https://d33wubrfki0l68.cloudfront.net/aea2faf51cc69a1e10bb434aa92f7c3821f16787/e4922/images/smashing-cat/singing-barista.svg" alt="">
-      <h2>New on Smashing TV</h2>
-      <p>A channel where seasoned developers show how they design,build,
-          work and play. Coming up next:<a href="#">Inspired Design Decisions</a>
-          with Andrew Clarke(Mar 24)
-      </p>
-        <div>
-          <a href="#">See all upcoming episodes</a>
-        </div>
-        <p>Already have an account?<a href="#"> Sign in!</a></p>
+    <div class = "grid-3">
+      <div class="banner-2">
+        <h2>New on Smashing TV</h2>
+        <p>A channel where seasoned developers show how they design,build,
+            work and play. Coming up next:<a href="#">Inspired Design Decisions</a>
+            with Andrew Clarke(Mar 24)
+        </p>
+          <div>
+            <a href="#">See all upcoming episodes</a>
+          </div>
+          <p>Already have an account?<a href="#"> Sign in!</a></p>
+      </div>
+      <div class="posts">
+          <small>7 DAYS AGO</small>
+          <br>
+          <!-- <a class="post-title" href="#"> -->
+            Implementing Infinite Scroll And Image Lazy Loading in React
+          </a>
+          <p>by <a href="#">Chidi Orji</a></p>
+          <p>
+            In this tutorial, we're going to learn how to
+            <br>
+            use the HTML Intersection Observer API to
+            <br>
+            implement infinite scrolling and image lazy
+            <br>
+            loading in a React functional component. In
+            <br>
+            the process, we’ll learn how to use some of
+            <br>
+            hooks and how to …
+          </p>
+      </div>
     </div>
-    <a href="#">SEE ALL LATEST ARTICLES</a>
-    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+    <a id="lastest-articles" href="#">SEE ALL LATEST ARTICLES</a>
      <!-- green handbook -->
-      <div>
-        <p>MARCH 2020 . SHIPPING NOW</p>
-        <h2>The Ethical Design Handbook</h2>
-        <h6>Leaving Dark Patterns Behind</h6>
-        <p>With practical techniques & strategies to make honest design work
+      <div class="book">
+        <p id="book-date">MARCH 2020 . SHIPPING NOW</p>
+        <h2 id="book-title">Ethical Design Handbook:</h2>
+        <h6 id="book-subtitle">Leaving Dark Patterns Behind.</h6>
+        <p id="book-paragraph">With <strong> practical techniques & strategies</strong> to make honest design work
           <br>
           for digital products. Help your business grow sustainably-without
           <br>
           dark patterns- and comply with GDPR and CCPA.
         </p>
-        <a href="#">
+        <a id="book-btn"href="#">
           Learn more about the book
-          <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </a>
-        <img src="images/ethical-design-transparent.png" alt="">
       </div>
       <!-- community links -->
       <div class="author">
-        <img src="/images/adrian-bece-200x200.jpg" alt="profile">
         <h4>PERSON OF THE WEEK</h4>
         <p>
           Many business models thrive on ingeniously deceptive 
@@ -320,9 +324,8 @@
         </p>
       </div>
       <!-- other links -->
-      <div class="grid-5">
+      <div class="grid-4">
         <article>
-          <img src="/images/adrian-bece-200x200.jpg" alt="profile">
           <a href="#">Max Bock</a>
           <p>wrote</p>
           <h4>Emergency Website Kit</h4>
@@ -335,7 +338,6 @@
           </p>
         </article>
         <article>
-          <img src="/images/adrian-bece-200x200.jpg" alt="profile">
           <a href="#">Max Bock</a>
           <p>wrote</p>
           <h4>Emergency Website Kit</h4>
@@ -348,7 +350,6 @@
           </p>
         </article>
         <article>
-          <img src="/images/adrian-bece-200x200.jpg" alt="profile">
           <a href="#">Max Bock</a>
           <p>wrote</p>
           <h4>Emergency Website Kit</h4>
@@ -361,7 +362,6 @@
           </p>
         </article>
         <article>
-          <img src="/images/adrian-bece-200x200.jpg" alt="profile">
           <a href="#">Max Bock</a>
           <p>wrote</p>
           <h4>Emergency Website Kit</h4>
@@ -374,7 +374,6 @@
           </p>
         </article>
         <article>
-          <img src="/images/adrian-bece-200x200.jpg" alt="profile">
           <a href="#">Max Bock</a>
           <p>wrote</p>
           <h4>Emergency Website Kit</h4>
@@ -387,7 +386,6 @@
           </p> 
         </article>
         <article>
-          <img src="/images/adrian-bece-200x200.jpg" alt="profile">
           <a href="#">Max Bock</a>
           <p>wrote</p>
           <h4>Emergency Website Kit</h4>
@@ -412,11 +410,10 @@
         to set up an <strong>effective design system</strong> to create great digital products. With common<br>
         traps, gotchas and lessons learned.</p>
       <a href="#">Table of contents</a>
-      <img src="/images/book.PNG" alt="">
     </article>
     </section>
     <!-- link lists -->
-    <div class="grid-6">
+    <div class="grid-5">
         <div class="post-text">
           <h4>GUIDES</h4>
           <h2>New Front-End Challenges To Master</h2>
@@ -460,7 +457,7 @@
           </ul>
         </div>
     </div>
-    <div class="grid-7">
+    <div class="grid-6">
       <div class="post-text">
         <h4>GUIDES</h4>
         <h2>New Front-End Challenges To Master</h2>
@@ -476,7 +473,6 @@
         </ul>
       </div>
       <div>
-        <img src="/images/suzanne-scacca-200px.jpg" alt="">
         <a href="#">1,51 smashing members</a>
         <p>A friendly community for people 
         who design and build the web. Books, webinars,
