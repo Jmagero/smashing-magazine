@@ -241,14 +241,26 @@ h3 {
   color: #333;
 }
 
+.see_all{
+  width: fit-content;
+  margin: 130px auto;
+  border-bottom: 2px black solid;
+  padding-bottom: 3px;
+}
+
 .book {
   text-align: center;
   background-color: #333;
-  height: 700px;
+  height: 1092px;
+  padding: 77px 0;
 }
-
-#book-title {
-  font-size: 2.9rem;
+.book-date {
+  padding: 2.5rem;
+  font-size: 1.2rem;
+  color: #000;
+}
+.book-title {
+  font-size: 50px;
   font-weight: bolder;
   color: #555;
   text-decoration: underline;
@@ -256,33 +268,39 @@ h3 {
   line-height: 5rem;
 }
 
-#book-subtitle {
-  font-size: 2.7rem;
+.book-subtitle {
+  font-size: 50px;
   font-weight: bolder;
   color: #000;
 }
 
-#book-paragraph {
-  font-size: 1rem;
+.book-paragraph {
+  font-size: 27px;
+  width: 1100px;
+  margin: 43px auto;
   padding-top: 20px;
   color: #000;
   padding-bottom: 4.5rem;
 }
 
-#book-btn {
+.book-btn {
   color: #000;
+  height: 73px;
   font-weight: bold;
-  font-size: large;
-  padding: 10px;
+  font-size: 27px;
+  padding: 20px;
   border: none;
   border-radius: 5px;
   background-color: white;
 }
 
-#book-date {
-  padding: 2.5rem;
-  font-size: small;
-  color: #000;
+.person-of-week{
+  margin: 70px 65px 200px 10%  ;
+  height: 320px;
+}
+.person-title{
+  color: #666;
+  padding-bottom: 50px;
 }
 
 .grid-4 {
