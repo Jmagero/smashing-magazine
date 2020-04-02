@@ -107,9 +107,7 @@ h3 {
   background-color: rgb(68, 68, 70);
 }
 
-.article-1 img,
-.article-2 img,
-.article-3 img {
+.article-1 img, .article-2 img, .article-3 img {
   width: 50px;
   height: 50px;
 }
@@ -254,11 +252,13 @@ h3 {
   height: 1092px;
   padding: 77px 0;
 }
+
 .book-date {
   padding: 2.5rem;
   font-size: 1.2rem;
   color: #000;
 }
+
 .book-title {
   font-size: 50px;
   font-weight: bolder;
@@ -298,6 +298,7 @@ h3 {
   margin: 70px 65px 200px 20%;
   height: 200px;
 }
+
 .person-title {
   color: #666;
   padding-bottom: 50px;
@@ -327,20 +328,22 @@ h3 {
   padding: 0 150px;
 }
 
-.other_links_author,
-.wrote {
+.other_links_author, .wrote {
   color: #666;
   font-size: 25px;
   text-decoration: underline;
 }
+
 .wrote {
   text-decoration: none;
 }
+
 .other_links_title {
   color: #000;
   font-size: 35px;
   line-height: 60px;
 }
+
 .paragraph-author {
   width: 90%;
   font-size: 21px;
@@ -356,23 +359,28 @@ h3 {
 .design-systems .book-title {
   line-height: 0;
 }
+
 .design-paragraph {
   margin: 50px 0;
   font-size: 25px;
   line-height: 30px;
   width: 70%;
 }
+
 .white {
   color: #fff;
 }
+
 .design-systems {
   height: 407px;
   padding: 55px 73px;
   background: #555;
 }
+
 .design-btn {
   margin-top: 50px;
 }
+
 .grid-5 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -421,13 +429,21 @@ h3 {
 
 .email {
   width: 274px;
-  height: 70px;
+  height: 73px;
   padding: 27px 40px 12px 17px 19px;
   font-size: 20px;
-  margin-right: -5px;
-  border-radius: 15px;
+  border-radius: 15px 0 0 15px;
+  border: none;
 }
 
 .newsletter_button {
   margin-left: -5px;
+  margin: -1px -5px;
+
+}
+
+.newsletter_button, .book-btn {
+  border-radius: 0 15px 15px 0;
+  border-left: #666;
+  height: 75px;
 }
