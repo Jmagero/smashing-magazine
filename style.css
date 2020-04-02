@@ -296,7 +296,7 @@ h3 {
 
 .person-of-week {
   margin: 70px 65px 200px 20%;
-  height: 320px;
+  height: 200px;
 }
 .person-title {
   color: #666;
@@ -319,18 +319,43 @@ h3 {
 
 .grid-4 {
   display: grid;
-  border: solid 1px green;
   grid-gap: 30px;
   grid-template: repeat(3, 1fr) / repeat(2, 1fr);
-  height: 823px;
+  height: 1300px;
   align-items: center;
   justify-items: center;
+  padding: 0 150px;
 }
 
-.other_links_author {
+.other_links_author,
+.wrote {
   color: #666;
-  font-size: 22px;
+  font-size: 25px;
   text-decoration: underline;
+}
+.wrote {
+  text-decoration: none;
+}
+.other_links_title {
+  color: #000;
+  font-size: 35px;
+  line-height: 60px;
+}
+.paragraph-author {
+  width: 90%;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.design-systems {
+  height: 407px;
+  padding: 55px 73px;
+  background: #555;
+}
+
+.design-systems * {
+  margin: auto;
+  padding: auto;
 }
 
 .grid-5 {
