@@ -356,19 +356,78 @@ h3 {
 .design-systems .book-title {
   line-height: 0;
 }
-
 .design-paragraph {
+  margin: 50px 0;
+  font-size: 25px;
+  line-height: 30px;
+  width: 70%;
+}
+.white {
+  color: #fff;
+}
+.design-systems {
+  height: 407px;
+  padding: 55px 73px;
+  background: #555;
+}
+.design-btn {
   margin-top: 50px;
 }
-
 .grid-5 {
   display: grid;
-  border: solid 1px green;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.grid-6 {
-  display: grid;
-  border: solid 1px green;
-  grid-template-columns: repeat(2, 1fr);
+.posts ul {
+  line-height: 45px;
+  padding-left: 40px;
+}
+
+.posts h4 {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.posts h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.posts li a {
+  color: #006fc6;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.big_card {
+  height: 789px;
+}
+
+.newsletter {
+  height: 1138px;
+  width: 90%;
+  margin: 0 auto;
+  background: #555;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+}
+
+.newsletter_title .design-paragraph {
+  text-align: center;
+  width: 50%;
+  margin: 25px auto 700px auto;
+}
+
+.email {
+  width: 274px;
+  height: 70px;
+  padding: 27px 40px 12px 17px 19px;
+  font-size: 20px;
+  margin-right: -5px;
+  border-radius: 15px;
+}
+
+.newsletter_button {
+  margin-left: -5px;
 }
