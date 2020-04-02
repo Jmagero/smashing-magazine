@@ -353,9 +353,12 @@ h3 {
   background: #555;
 }
 
-.design-systems * {
-  margin: auto;
-  padding: auto;
+.design-systems .book-title {
+  line-height: 0;
+}
+
+.design-paragraph {
+  margin-top: 50px;
 }
 
 .grid-5 {
