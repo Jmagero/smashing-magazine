@@ -163,19 +163,26 @@ h3 {
   font: 20px/30px "Times New Roman", Times, serif;
 }
 
-.grid-smashing{
+.grid-smashing {
   display: grid;
-  grid-template-columns: 1fr 452px 452px;
   height: 675px;
-  border: solid 3px green;
+  grid-gap: 20px;
 }
-.banner1 {
+
+.grid_smashing1 {
+  grid-template-columns: 1fr 452px 452px;
+}
+
+.banner {
   width: calc(100%-50px);
   text-align: center;
   padding-top: 200px;
   color: #fff;
   background: #333;
   border-radius: 15px;
+}
+
+.banner1 {
   margin-left: 50px;
 }
 
@@ -186,11 +193,16 @@ h3 {
   text-decoration: underline;
 }
 
-.banner1 p {
+.banner p {
   padding: 50px 20px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   width: 60%;
   margin: 0 auto;
+}
+
+.smashing_link {
+  color: white;
+  text-decoration: underline;
 }
 
 .exp-btn {
@@ -199,33 +211,28 @@ h3 {
   border: none;
   border-radius: 5px;
   background-color: white;
+  font-size: 1.4rem;
 }
 
 .account {
+  padding-top: 30px;
   color: white;
-  font-size: x-small;
+  font-size: 1.2rem;
 }
 
-#sign-in {
+.sign-in {
   color: white;
-  font-size: x-small;
+  font-size: 1.05rem;
+  text-decoration: underline;
 }
 
-.grid-3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.grid_smashing2 {
+  grid-template-columns: 452px 452px 1fr;
+  margin-top: 90px;
 }
 
-.banner-2 {
-  grid-template-columns: 1/3;
-  width: 800px;
-  height: 500px;
-  text-align: center;
-  padding-top: 150px;
-  color: #fff;
-  background: #333;
-  border-radius: 15px;
-  margin-left: 35%;
+.banner2 {
+  margin: 0 50px 0 0;
 }
 
 #lastest-articles {
