@@ -241,7 +241,7 @@ h3 {
   color: #333;
 }
 
-.see_all{
+.see_all {
   width: fit-content;
   margin: 130px auto;
   border-bottom: 2px black solid;
@@ -294,19 +294,43 @@ h3 {
   background-color: white;
 }
 
-.person-of-week{
-  margin: 70px 65px 200px 10%  ;
+.person-of-week {
+  margin: 70px 65px 200px 20%;
   height: 320px;
 }
-.person-title{
+.person-title {
   color: #666;
   padding-bottom: 50px;
+}
+
+.person-of-week p {
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.person_link {
+  color: #006fc6;
+  text-decoration: underline;
+}
+
+.person_italics {
+  font-style: italic;
 }
 
 .grid-4 {
   display: grid;
   border: solid 1px green;
-  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  height: 823px;
+  align-items: center;
+  justify-items: center;
+}
+
+.other_links_author {
+  color: #666;
+  font-size: 22px;
+  text-decoration: underline;
 }
 
 .grid-5 {
