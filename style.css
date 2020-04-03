@@ -362,7 +362,7 @@ h3 {
 
 .design-paragraph {
   margin: 50px 0;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 30px;
   width: 70%;
 }
@@ -430,20 +430,26 @@ h3 {
 .email {
   width: 274px;
   height: 73px;
-  padding: 27px 40px 12px 17px 19px;
+  padding: 27px 40px 10px 17px 19px;
   font-size: 20px;
   border-radius: 15px 0 0 15px;
   border: none;
+  border: 1px solid transparent;
+  margin-bottom: 0;
 }
 
 .newsletter_button {
   margin-left: -5px;
   margin: -1px -5px;
-
 }
 
 .newsletter_button, .book-btn {
   border-radius: 0 15px 15px 0;
   border-left: #666;
   height: 75px;
+}
+
+.footer{
+  height: 1000px;
+  text-align: center;
 }
