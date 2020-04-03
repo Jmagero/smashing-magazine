@@ -7,7 +7,6 @@
 
 a {
   text-decoration: none;
-  color: #555;
 }
 
 body {
@@ -15,31 +14,34 @@ body {
   width: 100%;
 }
 
-.black {
+.black,.black a {
   background: #000;
   color: #fff;
 }
 
-.dark_gray {
+.dark_gray, .dark_gray a {
   background: #333;
   color: #fff;
 }
 
-.middle_gray {
+.middle_gray, .middle_gray a{
   background: #777;
   color: #000;
 }
 
-.light_gray {
+.light_gray, .light_gray a {
   background: rgb(170, 170, 170);
   color: #000;
+}
+.white, .white a{
+  background-color: #fff;
+  color: #666;
 }
 
 nav ul {
   display: flex;
   width: 100%;
   padding: 50px 50px 0 50px;
-  background-color: grey;
   justify-content: space-between;
   align-content: center;
   height: 219px;
@@ -109,14 +111,12 @@ h3 {
 }
 
 .item small {
-  color: #555;
   font-style: oblique;
 }
 
 .item a {
   font-size: x-large;
   text-decoration: none;
-  color: black;
 }
 
 .item h2 {
@@ -127,29 +127,19 @@ h3 {
   margin-bottom: 50px;
 }
 
-.article-1 {
-  background-color: rgb(68, 68, 70);
-}
 
 .article-1 img, .article-2 img, .article-3 img {
   width: 50px;
   height: 50px;
 }
 
-.article-2 {
-  background-color: rgb(113, 113, 116);
-}
-
-.article-3 {
-  background-color: rgb(52, 52, 53);
-  color: gray;
-}
-
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(3, 452px);
-  background-color: rgb(181, 181, 182);
   height: 675px;
+  width: 100%;
+  max-width: 1356px;
+  margin: 0 auto 0 25%;
 }
 
 .grid-2 a {
@@ -391,9 +381,9 @@ h3 {
   width: 70%;
 }
 
-.white {
+/* .white {
   color: #fff;
-}
+} */
 
 .design-systems {
   height: 407px;
