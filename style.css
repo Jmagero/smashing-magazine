@@ -14,26 +14,15 @@ body {
   width: 100%;
 }
 
-.italics,
-.post,
-.see_all,
-.other_links_author,
-.wrote,
-.design-paragraph,
-.posts li a,
-.descript,
-.footer_title {
+.italics, .post, .see_all, .other_links_author, .wrote, .design-paragraph, .posts li a, .descript, .footer_title {
   font-size: 25px;
 }
 
-.book-title,
-.center_text,
-.item h2,
-.book-subtitle{
+.book-title, .center_text, .item h2, .book-subtitle {
   font-size: 50px;
 }
 
-.black,.black a {
+.black, .black a {
   background: #000;
   color: #fff;
 }
@@ -43,7 +32,7 @@ body {
   color: #fff;
 }
 
-.middle_gray, .middle_gray a{
+.middle_gray, .middle_gray a {
   background: #777;
   color: #000;
 }
@@ -52,7 +41,8 @@ body {
   background: rgb(170, 170, 170);
   color: #000;
 }
-.white, .white a{
+
+.white, .white a {
   background-color: #fff;
   color: #666;
 }
@@ -72,9 +62,9 @@ nav ul {
 }
 
 .logo {
-  margin: -10px 10px;
-  width: 80%;
-  height: 80%;
+  margin: -75px 10px;
+  width: 250px;
+  height: 250px;
 }
 
 h3 {
@@ -87,7 +77,7 @@ h3 {
   text-align: center;
 }
 
-.topics{
+.topics {
   padding: 5px 10px;
   border: #000 solid 4px;
   border-radius: 10px;
@@ -140,10 +130,9 @@ h3 {
   text-decoration: none;
 }
 
-.comment{
+.comment {
   margin-bottom: 50px;
 }
-
 
 .article-1 img, .article-2 img, .article-3 img {
   width: 50px;
@@ -169,7 +158,7 @@ h3 {
   height: 837px;
 }
 
-.posts:hover{
+.posts:hover {
   cursor: pointer;
 }
 
@@ -309,7 +298,7 @@ h3 {
   margin: 0 auto;
 }
 
-.book-btn a{
+.book-btn a {
   color: #000;
   background: #fff;
 }
@@ -377,10 +366,10 @@ h3 {
 
 .design-systems {
   height: 407px;
-  padding: 75px 0 55px 73px;
+  padding: 25px 0 55px 73px;
 }
 
-.featured_smashing{
+.featured_smashing {
   margin-bottom: 50px;
 }
 
@@ -405,9 +394,11 @@ h3 {
   margin: 0 auto;
   max-width: 1666px;
 }
-.underline{
+
+.underline {
   text-decoration: underline;
 }
+
 .posts ul {
   line-height: 45px;
   padding-left: 40px;
@@ -447,7 +438,7 @@ h3 {
   margin: 25px auto 700px auto;
 }
 
-.newsletter_footer{
+.newsletter_footer {
   display: flex;
   align-items: center;
   height: 71px;
@@ -464,7 +455,7 @@ h3 {
   border: none;
 }
 
-.newsletter_button{
+.newsletter_button {
   border-radius: 0 15px 15px 0;
   border-left: #666 1px solid;
   height: 71px;
@@ -475,13 +466,13 @@ h3 {
   text-align: center;
 }
 
-footer{
+footer {
   text-align: center;
   height: 1000px;
   padding-top: 80px;
 }
 
-.center-list{
+.center-list {
   width: 100%;
   max-width: 1277px;
   margin: 0 auto;
@@ -489,28 +480,28 @@ footer{
   list-style-type: circle;
 }
 
-.center-list li{
+.center-list li {
   display: inline;
   line-height: 70px;
   font-size: 30px;
   margin: 20px;
 }
 
-.footer_info{
+.footer_info {
   margin: 20px auto;
   font-size: 20px;
   line-height: 35px;
   padding-top: 70px;
 }
 
-.footer-links{
+.footer-links {
   width: 100%;
   max-width: 600px;
   margin: 20px auto 0 auto;
   padding-bottom: 50px;
 }
 
-.footer-links li{
+.footer-links li {
   display: inline;
   line-height: 50px;
   font-size: 20px;
