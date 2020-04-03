@@ -15,31 +15,57 @@ body {
   width: 100%;
 }
 
+.black {
+  background: #000;
+  color: #fff;
+}
+
+.dark_gray {
+  background: #333;
+  color: #fff;
+}
+
+.middle_gray {
+  background: #777;
+  color: #000;
+}
+
+.light_gray {
+  background: rgb(170, 170, 170);
+  color: #000;
+}
+
 nav ul {
   display: flex;
   width: 100%;
-  padding: 50px 0 0 0;
+  padding: 50px 50px 0 50px;
   background-color: grey;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
   height: 219px;
   list-style: none;
 }
 
 .logo {
-  margin: -60px -50px;
-  width: 130%;
-  height: 130%;
+  margin: -10px 10px;
+  width: 80%;
+  height: 80%;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bolder;
   line-height: 55px;
 }
 
 .navbar_list {
   text-align: center;
+}
+
+.topics{
+  padding: 5px 10px;
+  border: #fff solid 4px;
+  border-radius: 10px;
 }
 
 .italics {
@@ -55,16 +81,11 @@ h3 {
   position: absolute;
 }
 
-.dont_miss {
-  background: black;
-  color: grey;
-}
-
 .right_text {
   text-align: right;
   margin: 45px 0 0 85%;
   width: 15%;
-  font-size: 50px;
+  font-size: 30px;
   position: absolute;
 }
 
@@ -79,8 +100,7 @@ h3 {
 
 .item {
   height: 605px;
-  padding: 100px;
-  text-align: center;
+  padding: 250px 30px 250px 80px;
   align-self: center;
 }
 
@@ -100,7 +120,11 @@ h3 {
 }
 
 .item h2 {
-  font-size: xx-large;
+  font-size: 50px;
+}
+
+.comment{
+  margin-bottom: 50px;
 }
 
 .article-1 {
