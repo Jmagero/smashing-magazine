@@ -14,6 +14,25 @@ body {
   width: 100%;
 }
 
+.italics,
+.post,
+.see_all,
+.other_links_author,
+.wrote,
+.design-paragraph,
+.posts li a,
+.descript,
+.footer_title {
+  font-size: 25px;
+}
+
+.book-title,
+.center_text,
+.item h2,
+.book-subtitle{
+  font-size: 50px;
+}
+
 .black,.black a {
   background: #000;
   color: #fff;
@@ -76,14 +95,12 @@ h3 {
 
 .italics {
   font-family: "Dancing Script", cursive;
-  font-size: 25px;
 }
 
 .center_text {
   text-align: center;
   margin: 45px 40%;
   width: 20%;
-  font-size: 50px;
   position: absolute;
 }
 
@@ -123,10 +140,6 @@ h3 {
   text-decoration: none;
 }
 
-.item h2 {
-  font-size: 50px;
-}
-
 .comment{
   margin-bottom: 50px;
 }
@@ -156,6 +169,10 @@ h3 {
   height: 837px;
 }
 
+.posts:hover{
+  cursor: pointer;
+}
+
 .grid-2 small {
   text-transform: capitalize;
 }
@@ -175,7 +192,6 @@ h3 {
 }
 
 .post {
-  font-size: 25px;
   line-height: 50px;
 }
 
@@ -245,7 +261,7 @@ h3 {
 
 .see_all {
   width: fit-content;
-  margin: 130px auto;
+  margin: 230px auto 130px auto;
   border-bottom: 2px black solid;
   padding-bottom: 3px;
 }
@@ -262,7 +278,6 @@ h3 {
 }
 
 .book-title {
-  font-size: 50px;
   font-weight: bolder;
   text-decoration: underline;
   text-shadow: 1px 2px #777;
@@ -270,7 +285,6 @@ h3 {
 }
 
 .book-subtitle {
-  font-size: 50px;
   font-weight: bolder;
 }
 
@@ -342,7 +356,6 @@ h3 {
 
 .other_links_author, .wrote {
   color: #666;
-  font-size: 25px;
   text-decoration: underline;
 }
 
@@ -364,7 +377,11 @@ h3 {
 
 .design-systems {
   height: 407px;
-  padding: 55px 73px;
+  padding: 75px 0 55px 73px;
+}
+
+.featured_smashing{
+  margin-bottom: 50px;
 }
 
 .design-systems .book-title {
@@ -372,14 +389,13 @@ h3 {
 }
 
 .design-paragraph {
-  margin: 50px 0;
-  font-size: 25px;
-  line-height: 30px;
+  padding: 50px 0;
+  line-height: 50px;
   width: 70%;
 }
 
 .design-btn {
-  margin: 50px 0 0 6px;
+  margin-left: 6px;
 }
 
 .grid-5 {
@@ -409,7 +425,6 @@ h3 {
 
 .posts li a {
   text-decoration: underline;
-  font-size: 25px;
 }
 
 .big_card {
@@ -438,7 +453,7 @@ h3 {
   height: 71px;
   justify-content: center;
   width: fit-content;
-  margin: 0 auto 30px auto;
+  margin: -100px auto 30px auto;
 }
 
 .email {
@@ -455,8 +470,7 @@ h3 {
   height: 71px;
 }
 
-.descript{
-  font-size: 25px;
+.descript {
   margin-top: 20px;
   text-align: center;
 }
