@@ -297,8 +297,11 @@ h3 {
 }
 
 .person-of-week {
-  margin: 70px 65px 200px 20%;
+  margin: 70px auto 200px auto;
+  padding-left: 20%;
   height: 200px;
+  width: 100%;
+  max-width: 1300px;
 }
 
 .person-title {
@@ -355,7 +358,6 @@ h3 {
 .design-systems {
   height: 407px;
   padding: 55px 73px;
-  background: #555;
 }
 
 .design-systems .book-title {
@@ -369,18 +371,8 @@ h3 {
   width: 70%;
 }
 
-/* .white {
-  color: #fff;
-} */
-
-.design-systems {
-  height: 407px;
-  padding: 55px 73px;
-  background: #555;
-}
-
 .design-btn {
-  margin-top: 50px;
+  margin: 50px 0 0 6px;
 }
 
 .grid-5 {
@@ -404,7 +396,6 @@ h3 {
 }
 
 .posts li a {
-  color: #006fc6;
   text-decoration: underline;
   font-size: 25px;
 }
@@ -417,7 +408,6 @@ h3 {
   height: 1138px;
   width: 90%;
   margin: 0 auto;
-  background: #555;
   border-radius: 15px;
   padding: 30px;
   text-align: center;
