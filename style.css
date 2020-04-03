@@ -385,8 +385,13 @@ h3 {
 .grid-5 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1666px;
 }
-
+.underline{
+  text-decoration: underline;
+}
 .posts ul {
   line-height: 45px;
   padding-left: 40px;
@@ -413,7 +418,8 @@ h3 {
 
 .newsletter {
   height: 1138px;
-  width: 90%;
+  width: 100%;
+  max-width: 1666px;
   margin: 0 auto;
   border-radius: 15px;
   padding: 30px;
@@ -457,16 +463,21 @@ h3 {
 
 footer{
   text-align: center;
+  height: 1000px;
+  padding-top: 80px;
 }
 
 .center-list{
-  margin: 61px auto;
-  width: 90%;
+  width: 100%;
+  max-width: 1277px;
+  margin: 0 auto;
+  padding-top: 80px;
+  list-style-type: circle;
 }
 
 .center-list li{
   display: inline;
-  line-height: 50px;
+  line-height: 70px;
   font-size: 30px;
   margin: 20px;
 }
@@ -475,10 +486,12 @@ footer{
   margin: 20px auto;
   font-size: 20px;
   line-height: 35px;
+  padding-top: 70px;
 }
 
 .footer-links{
-  width: 50%;
+  width: 100%;
+  max-width: 600px;
   margin: 20px auto 0 auto;
   padding-bottom: 50px;
 }
