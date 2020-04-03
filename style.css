@@ -159,10 +159,6 @@ h3 {
   height: 50px;
 }
 
-.posts li a {
-  text-decoration: underline;
-}
-
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(3, 452px);
@@ -325,6 +321,10 @@ h3 {
 .book-btn a {
   color: #000;
   background: #fff;
+}
+
+.posts li a {
+  text-decoration: underline;
 }
 
 .person-of-week {
