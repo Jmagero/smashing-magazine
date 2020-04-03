@@ -56,8 +56,8 @@ body {
 .other_links_author,
 .wrote,
 .design-paragraph,
-.posts li a,
 .descript,
+.special,
 .footer_title {
   font-size: 25px;
 }
@@ -325,6 +325,7 @@ h3 {
 
 .posts li a {
   text-decoration: underline;
+  font-size: 25px;
 }
 
 .person-of-week {
