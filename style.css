@@ -38,6 +38,10 @@ body {
   color: #666;
 }
 
+.times, .times a, .times li {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 nav ul {
   display: flex;
   width: 100%;
@@ -136,10 +140,10 @@ h3 {
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(3, 452px);
-  height: 675px;
+  height: 837px;
   width: 100%;
   max-width: 1356px;
-  margin: 0 auto 0 25%;
+  margin: 0 auto 200px 25%;
 }
 
 .grid-2 a {
@@ -148,12 +152,11 @@ h3 {
 
 .posts {
   margin-top: 30px;
-  padding: 30px 40px 0;
-  height: 500px;
+  padding: 30px 70px 0;
+  height: 837px;
 }
 
 .grid-2 small {
-  font-family: "Times New Roman", Times, serif;
   text-transform: capitalize;
 }
 
@@ -162,7 +165,7 @@ h3 {
 }
 
 .posts_links {
-  font-size: x-large;
+  font-size: 40px;
   color: #000;
   font-weight: bold;
 }
@@ -172,12 +175,13 @@ h3 {
 }
 
 .post {
-  font: 20px/30px "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 50px;
 }
 
 .grid-smashing {
   display: grid;
-  height: 675px;
+  height: 837px;
   width: 100%;
   max-width: 1638px;
   margin: 0 auto;
@@ -191,7 +195,7 @@ h3 {
   width: 100%;
   max-width: 879px;
   text-align: center;
-  padding: 180px 40px 0px;
+  padding: 280px 40px;
   border-radius: 15px;
 }
 
@@ -204,7 +208,7 @@ h3 {
 .banner p {
   padding: 50px 20px;
   font-size: 1.3rem;
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -236,7 +240,7 @@ h3 {
 
 .grid_smashing2 {
   grid-template-columns: 437px 437px 1fr;
-  margin-top: 90px;
+  margin-top: 190px;
 }
 
 .see_all {
@@ -297,8 +301,9 @@ h3 {
 }
 
 .person-of-week {
+  position: relative;
   margin: 70px auto 200px auto;
-  padding-left: 20%;
+  padding-left: 50px;
   height: 200px;
   width: 100%;
   max-width: 1300px;
@@ -315,7 +320,6 @@ h3 {
 }
 
 .person_link {
-  color: #006fc6;
   text-decoration: underline;
 }
 
@@ -331,6 +335,9 @@ h3 {
   align-items: center;
   justify-items: center;
   padding: 0 150px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .other_links_author, .wrote {
@@ -424,6 +431,8 @@ h3 {
   align-items: center;
   height: 71px;
   justify-content: center;
+  width: fit-content;
+  margin: 0 auto 30px auto;
 }
 
 .email {
@@ -435,13 +444,15 @@ h3 {
 }
 
 .newsletter_button{
-  margin-right: 10px;
-  height: 32px;
-}
-
-.newsletter_button .book-btn {
   border-radius: 0 15px 15px 0;
   border-left: #666 1px solid;
+  height: 71px;
+}
+
+.descript{
+  font-size: 25px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 footer{
@@ -468,7 +479,8 @@ footer{
 
 .footer-links{
   width: 50%;
-  margin: 20px auto 50px auto;
+  margin: 20px auto 0 auto;
+  padding-bottom: 50px;
 }
 
 .footer-links li{
