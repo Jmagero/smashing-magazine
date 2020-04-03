@@ -66,7 +66,7 @@ h3 {
 
 .topics{
   padding: 5px 10px;
-  border: #fff solid 4px;
+  border: #000 solid 4px;
   border-radius: 10px;
 }
 
@@ -178,28 +178,24 @@ h3 {
 .grid-smashing {
   display: grid;
   height: 675px;
-  grid-gap: 20px;
+  width: 100%;
+  max-width: 1638px;
+  margin: 0 auto;
 }
 
 .grid_smashing1 {
-  grid-template-columns: 1fr 452px 452px;
+  grid-template-columns: 1fr 437px 437px;
 }
 
 .banner {
-  width: calc(100%-50px);
+  width: 100%;
+  max-width: 879px;
   text-align: center;
-  padding-top: 200px;
-  color: #fff;
-  background: #333;
+  padding: 180px 40px 0px;
   border-radius: 15px;
 }
 
-.banner1 {
-  margin-left: 50px;
-}
-
 .banner-title {
-  color: #fff;
   font-size: 3rem;
   font-weight: bolder;
   text-decoration: underline;
@@ -239,18 +235,8 @@ h3 {
 }
 
 .grid_smashing2 {
-  grid-template-columns: 452px 452px 1fr;
+  grid-template-columns: 437px 437px 1fr;
   margin-top: 90px;
-}
-
-.banner2 {
-  margin: 0 50px 0 0;
-}
-
-#lastest-articles {
-  display: flex;
-  justify-content: center;
-  color: #333;
 }
 
 .see_all {
@@ -262,7 +248,6 @@ h3 {
 
 .book {
   text-align: center;
-  background-color: #333;
   height: 1092px;
   padding: 77px 0;
 }
@@ -270,13 +255,11 @@ h3 {
 .book-date {
   padding: 2.5rem;
   font-size: 1.2rem;
-  color: #000;
 }
 
 .book-title {
   font-size: 50px;
   font-weight: bolder;
-  color: #555;
   text-decoration: underline;
   text-shadow: 1px 2px #777;
   line-height: 5rem;
@@ -285,7 +268,6 @@ h3 {
 .book-subtitle {
   font-size: 50px;
   font-weight: bolder;
-  color: #000;
 }
 
 .book-paragraph {
@@ -293,7 +275,6 @@ h3 {
   width: 1100px;
   margin: 43px auto;
   padding-top: 20px;
-  color: #000;
   padding-bottom: 4.5rem;
 }
 
@@ -305,7 +286,14 @@ h3 {
   padding: 20px;
   border: none;
   border-radius: 5px;
-  background-color: white;
+  background: white;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.book-btn a{
+  color: #000;
+  background: #fff;
 }
 
 .person-of-week {
