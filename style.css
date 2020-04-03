@@ -362,7 +362,7 @@ h3 {
 
 .design-paragraph {
   margin: 50px 0;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px;
   width: 70%;
 }
@@ -427,29 +427,61 @@ h3 {
   margin: 25px auto 700px auto;
 }
 
+.newsletter_footer{
+  display: flex;
+  align-items: center;
+  height: 71px;
+  justify-content: center;
+}
+
 .email {
   width: 274px;
-  height: 73px;
-  padding: 27px 40px 10px 17px 19px;
+  height: 71px;
   font-size: 20px;
   border-radius: 15px 0 0 15px;
   border: none;
-  border: 1px solid transparent;
-  margin-bottom: 0;
 }
 
-.newsletter_button {
-  margin-left: -5px;
-  margin: -1px -5px;
+.newsletter_button{
+  margin-right: 10px;
+  height: 32px;
 }
 
-.newsletter_button, .book-btn {
+.newsletter_button .book-btn {
   border-radius: 0 15px 15px 0;
-  border-left: #666;
-  height: 75px;
+  border-left: #666 1px solid;
 }
 
-.footer{
-  height: 1000px;
+footer{
   text-align: center;
+}
+
+.center-list{
+  margin: 61px auto;
+  width: 90%;
+}
+
+.center-list li{
+  display: inline;
+  line-height: 50px;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.footer_info{
+  margin: 20px auto;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.footer-links{
+  width: 50%;
+  margin: 20px auto 50px auto;
+}
+
+.footer-links li{
+  display: inline;
+  line-height: 50px;
+  font-size: 20px;
+  margin: 20px;
 }
