@@ -14,26 +14,8 @@ body {
   width: 100%;
 }
 
-.italics,
-.post,
-.see_all,
-.other_links_author,
-.wrote,
-.design-paragraph,
-.posts li a,
-.descript,
-.footer_title {
-  font-size: 25px;
-}
-
-.book-title,
-.center_text,
-.item h2,
-.book-subtitle {
-  font-size: 50px;
-}
-
-.black, .black a {
+.black,
+.black a {
   background: #000;
   color: #fff;
 }
@@ -66,6 +48,25 @@ body {
 .times a,
 .times li {
   font-family: 'Times New Roman', Times, serif;
+}
+
+.italics,
+.post,
+.see_all,
+.other_links_author,
+.wrote,
+.design-paragraph,
+.posts li a,
+.descript,
+.footer_title {
+  font-size: 25px;
+}
+
+.book-title,
+.center_text,
+.item h2,
+.book-subtitle {
+  font-size: 50px;
 }
 
 nav ul {
@@ -366,7 +367,8 @@ h3 {
   margin: 0 auto;
 }
 
-.other_links_author, .wrote {
+.other_links_author,
+.wrote {
   color: #666;
   text-decoration: underline;
 }
