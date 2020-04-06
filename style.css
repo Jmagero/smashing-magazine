@@ -1,0 +1,511 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Neue", cursive;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.black,
+.black a {
+  background: #000;
+  color: #fff;
+}
+
+.dark_gray,
+.dark_gray a {
+  background: #333;
+  color: #fff;
+}
+
+.middle_gray,
+.middle_gray a {
+  background: #777;
+  color: #000;
+}
+
+.light_gray,
+.light_gray a {
+  background: rgb(170, 170, 170);
+  color: #000;
+}
+
+.white,
+.white a {
+  background-color: #fff;
+  color: #666;
+}
+
+.times,
+.times a,
+.times li {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.italics,
+.post,
+.see_all,
+.other_links_author,
+.wrote,
+.design-paragraph,
+.descript,
+.special,
+.footer_title {
+  font-size: 25px;
+}
+
+.book-title,
+.center_text,
+.item h2,
+.book-subtitle {
+  font-size: 50px;
+}
+
+nav ul {
+  display: flex;
+  width: 100%;
+  padding: 50px 50px 0 50px;
+  justify-content: space-between;
+  align-content: center;
+  height: 219px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin: -75px 10px;
+  width: 250px;
+  height: 250px;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: bolder;
+  line-height: 55px;
+}
+
+.navbar_list {
+  text-align: center;
+}
+
+.topics {
+  padding: 5px 10px;
+  border: #000 solid 4px;
+  border-radius: 10px;
+}
+
+.italics {
+  font-family: "Dancing Script", cursive;
+}
+
+.center_text {
+  text-align: center;
+  margin: 45px 40%;
+  width: 20%;
+  position: absolute;
+}
+
+.right_text {
+  text-align: right;
+  margin: 45px 0 0 85%;
+  width: 15%;
+  font-size: 30px;
+  position: absolute;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template: repeat(auto-fill, minmax(696px, auto)) / repeat(auto-fit, minmax(485px, 1fr));
+}
+
+.item {
+  padding: 250px 30px 250px 80px;
+  align-self: center;
+}
+
+.item small {
+  font-style: oblique;
+}
+
+.item a {
+  font-size: x-large;
+  text-decoration: none;
+}
+
+.comment {
+  margin-bottom: 50px;
+}
+
+.article-1 img,
+.article-2 img,
+.article-3 img {
+  width: 50px;
+  height: 50px;
+}
+
+.grid-2 {
+  display: flex;
+  margin: 0 auto 200px 25vw;
+  flex-wrap: wrap;
+}
+
+.grid-2 a {
+  text-decoration: underline;
+}
+
+.grid-2 article {
+  flex-basis: 452px;
+  flex-grow: 0;
+}
+
+.posts {
+  margin-top: 30px;
+  padding: 30px 70px 0;
+  height: 837px;
+}
+
+.posts:hover {
+  cursor: pointer;
+}
+
+.grid-2 small {
+  text-transform: capitalize;
+}
+
+.post_title {
+  padding-bottom: 30px;
+}
+
+.posts_links {
+  font-size: 40px;
+  color: #000;
+  font-weight: bold;
+}
+
+.post_author {
+  padding-bottom: 30px;
+}
+
+.post {
+  line-height: 50px;
+}
+
+.smashing_container {
+  width: 100%;
+  max-width: 1750px;
+  margin: 0 auto;
+}
+
+.grid-smashing {
+  display: grid;
+  grid-template: repeat(auto-fill, 904px) / repeat(auto-fill, 437px);
+  row-gap: 90px;
+}
+
+.banner {
+  grid-column: span 2;
+  text-align: center;
+  padding: 280px 40px;
+  border-radius: 15px;
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.banner p {
+  padding: 50px 20px;
+  font-size: 1.3rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.smashing_link {
+  color: white;
+  text-decoration: underline;
+}
+
+.exp-btn {
+  color: gray;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 1.4rem;
+}
+
+.account {
+  padding-top: 30px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.sign-in {
+  color: white;
+  font-size: 1.05rem;
+  text-decoration: underline;
+}
+
+.see_all {
+  width: fit-content;
+  margin: 230px auto 130px auto;
+  border-bottom: 2px black solid;
+  padding-bottom: 3px;
+}
+
+.book {
+  text-align: center;
+  height: 1092px;
+  padding: 77px 0;
+}
+
+.book-date {
+  padding: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.book-title {
+  font-weight: bolder;
+  text-decoration: underline;
+  text-shadow: 1px 2px #777;
+  line-height: 5rem;
+}
+
+.book-subtitle {
+  font-weight: bolder;
+}
+
+.book-paragraph {
+  font-size: 27px;
+  width: 1100px;
+  margin: 43px auto;
+  padding-top: 20px;
+  padding-bottom: 4.5rem;
+}
+
+.book-btn {
+  color: #000;
+  height: 73px;
+  font-weight: bold;
+  font-size: 27px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.book-btn a {
+  color: #000;
+  background: #fff;
+}
+
+.posts li a {
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.person-of-week {
+  position: relative;
+  margin: 70px auto 200px auto;
+  padding-left: 50px;
+  height: 200px;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.person-title {
+  color: #666;
+  padding-bottom: 50px;
+}
+
+.person-of-week p {
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.person_link {
+  text-decoration: underline;
+}
+
+.person_italics {
+  font-style: italic;
+}
+
+.grid-4 {
+  display: grid;
+  grid-gap: 30px;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  height: 1300px;
+  align-items: center;
+  justify-items: center;
+  padding: 0 150px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.other_links_author,
+.wrote {
+  color: #666;
+  text-decoration: underline;
+}
+
+.wrote {
+  text-decoration: none;
+}
+
+.other_links_title {
+  color: #000;
+  font-size: 35px;
+  line-height: 60px;
+}
+
+.paragraph-author {
+  width: 90%;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.design-systems {
+  height: auto;
+  padding: 25px 0 55px 73px;
+}
+
+.featured_smashing {
+  margin-bottom: 50px;
+}
+
+.design-systems .book-title {
+  line-height: 0;
+}
+
+.design-paragraph {
+  padding: 50px 0;
+  line-height: 50px;
+  width: 70%;
+}
+
+.design-btn {
+  margin-left: 6px;
+}
+
+.grid-5 {
+  display: grid;
+  grid-template: repeat(auto-fill, 700px) / repeat(auto-fill, 407px);
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1666px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.posts ul {
+  line-height: 45px;
+  padding-left: 40px;
+}
+
+.posts h4 {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.posts h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.newsletter {
+  height: auto;
+  width: 100%;
+  max-width: 1666px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+}
+
+.newsletter_title .design-paragraph {
+  text-align: center;
+  width: 50%;
+  margin: 25px auto 700px auto;
+}
+
+.newsletter_footer {
+  display: flex;
+  align-items: center;
+  height: 71px;
+  justify-content: center;
+  width: fit-content;
+  margin: -100px auto 30px auto;
+}
+
+.email {
+  width: 274px;
+  height: 71px;
+  font-size: 20px;
+  border-radius: 15px 0 0 15px;
+  border: none;
+  padding-left: 50px;
+}
+
+.newsletter_button {
+  border-radius: 0 15px 15px 0;
+  border-left: #666 1px solid;
+  height: 71px;
+}
+
+.descript {
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  height: auto;
+  padding-top: 80px;
+}
+
+.center-list {
+  width: 100%;
+  max-width: 1277px;
+  margin: 0 auto;
+  padding-top: 80px;
+  list-style-type: circle;
+}
+
+.center-list li {
+  display: inline;
+  line-height: 70px;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.footer_info {
+  margin: 20px auto;
+  font-size: 20px;
+  line-height: 35px;
+  padding-top: 70px;
+}
+
+.footer-links {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto 0 auto;
+  padding-bottom: 50px;
+}
+
+.footer-links li {
+  display: inline;
+  line-height: 50px;
+  font-size: 20px;
+  margin: 20px;
+}
