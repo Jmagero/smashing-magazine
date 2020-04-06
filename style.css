@@ -9,11 +9,6 @@ a {
   text-decoration: none;
 }
 
-body {
-  margin: 0 auto;
-  width: 100%;
-}
-
 .black,
 .black a {
   background: #000;
@@ -47,7 +42,7 @@ body {
 .times,
 .times a,
 .times li {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .italics,
@@ -77,6 +72,7 @@ nav ul {
   align-content: center;
   height: 219px;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -120,23 +116,17 @@ h3 {
   position: absolute;
 }
 
-.seriously {
-  background: white;
-}
-
 .grid-1 {
   display: grid;
-  grid-template: auto auto / 1fr 1fr;
+  grid-template: repeat(auto-fill, minmax(696px, auto)) / repeat(
+      auto-fit,
+      minmax(485px, 1fr)
+    );
 }
 
 .item {
-  height: 605px;
   padding: 250px 30px 250px 80px;
   align-self: center;
-}
-
-.big {
-  height: 704px;
 }
 
 .item small {
@@ -160,16 +150,18 @@ h3 {
 }
 
 .grid-2 {
-  display: grid;
-  grid-template-columns: repeat(3, 452px);
-  height: 837px;
-  width: 100%;
-  max-width: 1356px;
-  margin: 0 auto 200px 25%;
+  display: flex;
+  margin: 0 auto 200px 25vw;
+  flex-wrap: wrap;
 }
 
 .grid-2 a {
   text-decoration: underline;
+}
+
+.grid-2 article {
+  flex-basis: 452px;
+  flex-grow: 0;
 }
 
 .posts {
@@ -204,21 +196,20 @@ h3 {
   line-height: 50px;
 }
 
-.grid-smashing {
-  display: grid;
-  height: 837px;
+.smashing_container {
   width: 100%;
-  max-width: 1638px;
+  max-width: 1750px;
   margin: 0 auto;
 }
 
-.grid_smashing1 {
-  grid-template-columns: 1fr 437px 437px;
+.grid-smashing {
+  display: grid;
+  grid-template: repeat(auto-fill, 904px) / repeat(auto-fill, 437px);
+  row-gap: 90px;
 }
 
 .banner {
-  width: 100%;
-  max-width: 879px;
+  grid-column: span 2;
   text-align: center;
   padding: 280px 40px;
   border-radius: 15px;
@@ -261,11 +252,6 @@ h3 {
   color: white;
   font-size: 1.05rem;
   text-decoration: underline;
-}
-
-.grid_smashing2 {
-  grid-template-columns: 437px 437px 1fr;
-  margin-top: 190px;
 }
 
 .see_all {
@@ -391,7 +377,7 @@ h3 {
 }
 
 .design-systems {
-  height: 407px;
+  height: auto;
   padding: 25px 0 55px 73px;
 }
 
@@ -415,7 +401,7 @@ h3 {
 
 .grid-5 {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template: repeat(auto-fill, 700px) / repeat(auto-fill, 407px);
   width: 100%;
   margin: 0 auto;
   max-width: 1666px;
@@ -440,12 +426,8 @@ h3 {
   margin-bottom: 25px;
 }
 
-.big_card {
-  height: 789px;
-}
-
 .newsletter {
-  height: 1138px;
+  height: auto;
   width: 100%;
   max-width: 1666px;
   margin: 0 auto;
@@ -475,6 +457,7 @@ h3 {
   font-size: 20px;
   border-radius: 15px 0 0 15px;
   border: none;
+  padding-left: 50px;
 }
 
 .newsletter_button {
@@ -490,7 +473,7 @@ h3 {
 
 footer {
   text-align: center;
-  height: 1000px;
+  height: auto;
   padding-top: 80px;
 }
 
