@@ -9,58 +9,40 @@ a {
   text-decoration: none;
 }
 
-.black,
-.black a {
+.black, .black a {
   background: #000;
   color: #fff;
 }
 
-.dark_gray,
-.dark_gray a {
+.dark_gray, .dark_gray a {
   background: #333;
   color: #fff;
 }
 
-.middle_gray,
-.middle_gray a {
+.middle_gray, .middle_gray a {
   background: #777;
   color: #000;
 }
 
-.light_gray,
-.light_gray a {
+.light_gray, .light_gray a {
   background: rgb(170, 170, 170);
   color: #000;
 }
 
-.white,
-.white a {
+.white, .white a {
   background-color: #fff;
   color: #666;
 }
 
-.times,
-.times a,
-.times li {
+.times, .times a, .times li {
   font-family: "Times New Roman", Times, serif;
 }
 
-.italics,
-.post,
-.see_all,
-.other_links_author,
-.wrote,
-.design-paragraph,
-.descript,
-.special,
-.footer_title {
+.italics, .post, .see_all, .other_links_author, .wrote, .design-paragraph, .descript, .special, .footer_title {
   font-size: 25px;
 }
 
-.book-title,
-.center_text,
-.item h2,
-.book-subtitle {
+.book-title, .center_text, .item h2, .book-subtitle {
   font-size: 50px;
 }
 
@@ -118,10 +100,7 @@ h3 {
 
 .grid-1 {
   display: grid;
-  grid-template: repeat(auto-fill, minmax(696px, auto)) / repeat(
-      auto-fit,
-      minmax(485px, 1fr)
-    );
+  grid-template: repeat(auto-fill, minmax(696px, auto)) / repeat( auto-fit, minmax(485px, 1fr));
 }
 
 .item {
@@ -142,9 +121,7 @@ h3 {
   margin-bottom: 50px;
 }
 
-.article-1 img,
-.article-2 img,
-.article-3 img {
+.article-1 img, .article-2 img, .article-3 img {
   width: 50px;
   height: 50px;
 }
@@ -354,8 +331,7 @@ h3 {
   margin: 0 auto;
 }
 
-.other_links_author,
-.wrote {
+.other_links_author, .wrote {
   color: #666;
   text-decoration: underline;
 }
